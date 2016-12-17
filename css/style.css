@@ -1,4 +1,4 @@
-﻿*{
+*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -7,14 +7,17 @@
 p.menu{
 	position: relative;
 	margin-left: 70%;
-	padding: 3%;
+	margin-top: -1px;
+	margin-right: -1px;
+	padding: 1.5%;
 	text-align: center;
 	border: 1px  solid black;
-	font-size: 125%;
+	font-size: 100%;
 	font-weight:bolder;
 	font-family: Arial, Georgia, Serif,"Tekton pro";
 }
 
+/*TODAS DIV COM BORDAS*/
 div > div {
 	border: 1px solid black;
 }
@@ -109,6 +112,14 @@ h1{
 	div.row > div	{
 		margin:  2%;
 	}
+
+	div > p.shushi{
+		width: 15%;
+		padding: 6px;
+		margin-left:85.2%;
+		position: relative;
+	}
+
 }
 
 /********MOBILE VIEW***********/
@@ -137,6 +148,7 @@ h1{
 		margin-bottom: 5%
 	}
 
+	
 
 
 }
